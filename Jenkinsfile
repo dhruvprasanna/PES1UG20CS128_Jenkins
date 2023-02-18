@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'g++ main/dhruv.cpp -o output'
-        build 'PES2UG20CS128-1'
+        build 'PES1UG20CS128-1'
         echo 'Build Successful'
       }
     }
