@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'g++ main/npatri.cpp -o output'
-        build 'PES2UG20CS229-1'
+        sh 'g++ main/dhruv.cpp -o output'
+        build 'PES2UG20CS128-1'
         echo 'Build Successful'
       }
     }
